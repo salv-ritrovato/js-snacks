@@ -5,3 +5,9 @@ console.log('Io odio JS')
 let number1 = prompt('Enter first number');
 let number2 = prompt('Enter second number');
 console.log(number1, number2)
+
+if (number1 > number2) {
+    consolelog(number1)
+} else {
+    console.log(number2)
+}
