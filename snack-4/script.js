@@ -1,13 +1,12 @@
 console.log('Io odio JS')
 // FUNZIONA!!
 
-// L'UTENTE INSERISCE DUE NUMERI IN SUCCESSIONE CON DUE PROMPT. IL SOFTWARE STAMPA IL MAGGIORE.
-let number1 = prompt('Enter first number');
-let number2 = prompt('Enter second number');
-console.log(number1, number2)
-
-if (number1 > number2) {
-    console.log(number1)
-} else {
-    console.log(number2)
-}
+// CREA UN ARRAY VUOTO. CHIEDI PER 6 VOLTE ALL'UTENTE DI INSERIRE UN NUMERO, SE è DISPARI, INSERISCILO NELL'ARRAY
+const numbers = []
+for (let i = 1; i <= 6; i++) {
+    let userinput = Number(prompt('Insert a number here'));
+    console.log(i);
+    if (userinput % 2) {
+    numbers.push(userinput);
+}}
+console.log(numbers);
