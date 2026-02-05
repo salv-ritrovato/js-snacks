@@ -12,5 +12,5 @@ if (word2.length > word1.length) {
 } else if (word1.length < word2.length) {
     console.log(word1 + " " + word2)
 } else {
-    ( console.log('The words are equal');)
+    (console.log('The words are equal'));
 }
