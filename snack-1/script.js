@@ -7,7 +7,7 @@ let number2 = prompt('Enter second number');
 console.log(number1, number2)
 
 if (number1 > number2) {
-    consolelog(number1)
+    console.log(number1)
 } else {
     console.log(number2)
 }
